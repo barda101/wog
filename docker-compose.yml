@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  python-app:
+    image: wog_image
+    container_name: wog_image
+    ports:
+      - "8092:80"
+      - "9092:90"
