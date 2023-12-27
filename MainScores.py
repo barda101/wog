@@ -16,13 +16,4 @@ def hello():
         return "saved new car"
 
 
-# @app.route('/moshe')
-# def my_func():
-#     return "hello and welcome to the world of games"
-#
-# @app.route('/')
-# def default_func():
-#     return "dani"
-
-
 app.run(host="0.0.0.0", port=5001, debug=False)
